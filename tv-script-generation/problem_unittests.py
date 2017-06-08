@@ -72,7 +72,6 @@ def test_create_lookup_tables(create_lookup_tables):
 
 
 def test_get_batches(get_batches):
-    print("testing batches...")
     with tf.Graph().as_default():
         test_batch_size = 128
         test_seq_length = 5
